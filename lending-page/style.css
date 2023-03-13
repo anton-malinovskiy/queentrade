@@ -55,16 +55,19 @@ height: auto;
   width: 10%;
   height: auto;
 }
-  /*Style do linkow*/
+  /* Style do linkow */
 .linkfooter {
-align-items: right;
-font-family: verdana;
-  font-size: 15px;
-}
-
-.kontaktfooter{
 align-items: center;
 font-family: verdana;
-font-size: 15px;
+  font-size: 15px;
+  display: flex; justify-content: center;
 
+}
+
+  /*Style dla kontaktów*/
+.kontaktfooter{
+font-family: Arial, serif;
+font-size: 10px;
+float: right;
+padding: 10px;
 }
