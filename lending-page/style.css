@@ -33,21 +33,37 @@
 .content {
   /* background-color: #ddd; */
   padding: 20px;
-  float: center;
-  text-align: center;
-  font-family: Arial;
+  font-family: Arial, serif;
   font-size:300%;
+  text-align: center;
 }
 
-/*Style dla footera*/
+/*Style dla inputow*/
+.inputs {
+ padding: 10px;
+ font-family: Arial, serif;
+ font-size:200%;
+ float: right;
+ /* display: inline-block;justify-content: center; */
+}
+.inputs-names {
+  padding: 10px;
+  font-size:100%;
+  font-family: Arial, serif;
+  float: right;
+}
+
+/* Style dla footera */
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
 }
 
 .mainLogo img {
-display: inline-block;
 text-align: left;
 width:20%;
 height: auto;
+/* display: inline-block;
+width: 200px;
+height: 200px; */
 }
