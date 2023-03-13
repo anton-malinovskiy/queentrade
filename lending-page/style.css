@@ -31,8 +31,9 @@
 
  /*Style dla treści*/
 .content {
-  background-color: #ddd;
+  /* background-color: #ddd; */
   padding: 20px;
+  float: center;
   text-align: center;
   font-family: Arial;
   font-size:300%;
@@ -45,7 +46,8 @@
 }
 
 .mainLogo img {
-align-items: center;
+display: inline-block;
+text-align: left;
 width:20%;
 height: auto;
 }
