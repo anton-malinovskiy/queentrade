@@ -34,36 +34,56 @@
   /* background-color: #ddd; */
   padding: 20px;
   font-family: Arial, serif;
-  font-size:300%;
+  font-size:200%;
   text-align: center;
 }
 
 /*Style dla inputow*/
 .inputs {
- padding: 10px;
+ padding: 40px;
+ margin: 8px 0;
  font-family: Arial, serif;
- font-size:200%;
- float: right;
- /* display: inline-block;justify-content: center; */
+ font-size: 200%;
+ float: left;
+ display: inline-block;
+ justify-content: center;
+ position: absolute;
+ top: 300px;
+ left: 100px;
 }
 .inputs-names {
   padding: 10px;
   font-size:100%;
   font-family: Arial, serif;
-  float: right;
+  position: relative;
 }
+
+/* style dla przycisku submit */
+}
+.submitButton {
+
+
+}
+
 
 /* Style dla footera */
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  height: 80px;
 }
 
 .mainLogo img {
-text-align: left;
+text-align: right;
 width:20%;
 height: auto;
-/* display: inline-block;
-width: 200px;
-height: 200px; */
+position: absolute;
+top: 300px;
+right: 100px;
+float: right;
+display: inline-block;
 }
