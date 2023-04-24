@@ -8,35 +8,42 @@
 </head>
 <body>
 
-  <div class="topnav">
-    <a href="#">wszystkie produkty</a>
-    <a href="#">limitowana ilość</a>
-    <a href="#">Kontakt</a>
-  </div>
+<div class="topnav">
+  <a href="#">wszystkie produkty</a>
+  <a href="#">limitowana ilość</a>
+  <a href="#">Kontakt</a>
+</div>
 
-  <div class="content">
+<div class="content">
   <h2>Promocja na wszystkie <br>towary</h2>
-  </div>
+</div>
 
-  <div class="inputs">
-    <form action="/action_page.php">
-      <label for="username">Name:</label><br>
-      <input type="text" id="username" name="username"><br>
-      <label for="text">Email:</label><br>
-      <input type="email" id="pwd" name="Email"><br>
-      <label for="pwd">Phone number:</label><br>
-      <input type="tel" id="phone" name="phone number"><br><br>
-    </form>
-    <div class="submitButton" >
+<div class="inputs">
+  <form action="/action_page.php">
+    <label for="username">Name:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="phone">Phone number:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+    <label for="newsletter">Subscribe to our newsletter:</label><br>
+    <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+  </form>
+  <div class="submitButton" >
     <input type="submit" value="button1">
-    </div>
   </div>
+</div>
 
 <div>
-<h2 class="mainLogo"><img src="logo_transparent_background.png"></h2>
+  <h2 class="mainLogo"><img src="logo_transparent_background.png"></h2>
 </div>
 
 <div class="footer">
+  <form action="/action_page.php">
+    <label for="footerEmail">Subscribe to our newsletter:</label><br>
+    <input type="email" id="footerEmail" name="email"><br>
+    <input type="submit" value="Subscribe">
+  </form>
   <p>footer</p>
 </div>
 
