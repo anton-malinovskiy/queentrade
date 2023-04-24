@@ -40,22 +40,28 @@
 
 /*Style dla inputow*/
 .inputs {
- padding: 40px;
+/* float: left; */
+width: 35%;
+padding: 100px;
+justify-content: center;
+top: 30%;
+left: 20%;
+ /* padding: 40px;
  margin: 8px 0;
  font-family: Arial, serif;
  font-size: 200%;
  float: left;
  display: inline-block;
- justify-content: center;
  position: absolute;
  top: 300px;
- left: 100px;
+ left: 100px; */
 }
 .inputs-names {
   padding: 10px;
   font-size:100%;
   font-family: Arial, serif;
-  position: relative;
+  top: 30%;
+  left: 20%;
 }
 
 /* style dla przycisku submit */
@@ -78,12 +84,23 @@
 }
 
 .mainLogo img {
-text-align: right;
-width:20%;
+/* float: left; */
+padding: 20px;
+width: 65%;
+height: 100%;
+justify-content: center;
+max-width: 30%;
 height: auto;
+position: absolute;
+top: 30%;
+left: 50%;
+
+
+
+/* text-align: right;
 position: absolute;
 top: 300px;
 right: 100px;
 float: right;
-display: inline-block;
+display: inline-block; */
 }
