@@ -121,3 +121,25 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
+
+
+.footerLinks {
+  float: right;
+  width: 20%;
+  height: 100%;
+
+}
+
+.footerCategories {
+  width: 20%;
+  height: 100%;
+  float: right;
+  /* padding: 10px; */
+}
+
+.footerMail {
+width: 20%;
+height: 100%;
+float: left;
+
+}
