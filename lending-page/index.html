@@ -20,7 +20,11 @@ body {
     overflow: hidden;
     background-color: #333;
     border-radius: 10px;
-  padding: 10px 10px 50px 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 
 }
 
@@ -151,15 +155,49 @@ body {
 width: 20%;
 height: 100%;
 float: left;
-
 }
+
+.topnav-left{
+  width: 33%;
+}
+
+.topnav-middle{
+width: 23%;
+}
+
+.topnav-right{
+width: 33%;
+}
+
+.topnav input[type="text"] {
+  padding:10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+justify-content: center;
+}
+
 </style>
 </head>
 <body>
 <div class="topnav">
-  <a href="https://antonimalinowski3.wixsite.com/queentrade/shop-1">wszystkie produkty</a>
-  <a href="#">limitowana ilość</a>
-  <a href="https://antonimalinowski3.wixsite.com/queentrade/kontakt">Kontakt</a>
+<div class="topnav-left">
+  <img src="logo.jpg" alt="icon1">
+</div>
+<div class="topnav-middle">
+  <input type="text" placeholder="Search">
+</div>
+<div class="topnav-right">
+  <a href="#">
+    <img src="cloud-service-url/icon2.pgn" alt="icon2">
+  </a>
+  <a href="#">
+    <img src="cloud-service-url/icon3.pgn" alt="icon3">
+  </a>
+  <a href="#">
+    <img src="cloud-service-url/icon4.pgn" alt="icon4">
+  </a>
+</div>
 </div>
 
 <div class="content">
