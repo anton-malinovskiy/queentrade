@@ -15,6 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* Style for the top navigation */
 .topnav {
     overflow: hidden;
@@ -107,20 +108,22 @@ body {
 
 /* Style for the footer */
 .footer {
-    background-color: #f1f1f1;
+    background-color: #9b969e;
     padding: 10px;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 80px;
+    left: 14px;
+    bottom: 14px;
+    width: 98%;
+    max-height:250px;
+    min-height:250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 
 /* Style for the footer input */
-#footerEmail {
+.footerEmail {
     padding: 10px;
     font-size: 16px;
     width: 60%;
@@ -152,7 +155,7 @@ body {
   /* padding: 10px; */
 }
 
-.footerMail {
+.textAboutUs {
 width: 20%;
 height: 100%;
 float: left;
@@ -166,6 +169,22 @@ float: left;
 width: 23%;
 }
 
+.footer-left {
+width: 33%;
+}
+
+.footer-middle {
+width: 33%;
+}
+
+.footer-right {
+width: 33%;
+}
+
+.animeUwUkasjan img{
+  max-width: 40%;
+  height: auto;
+}
 .topnav-right{
 width: 33%;
 }
@@ -226,21 +245,18 @@ justify-content: center;
   </div>
 </div>
 
+
+
 <div class="footer">
-  <div class="footerMail">
-    <p>Kategorie <br>queentrade1<br>queentrade2<br>queentrade3</p>
+  <div class="animeUwUkasjan">
+   <img src="animeUwUKasjan.jpeg">
   </div>
-  <div class="footerMail">
-    <p>Kontakt</p>
+  <div class="footer-middle">
+   <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It the</h2>
   </div>
-  <div class="footerMail">
-    <p>example@gmail.com</p>
+  <div class="animeUwUkasjan">
+   <img src="animeUwUKasjan.jpeg">
   </div>
-  <form action="/action_page.php">
-    <label for="footerEmail">Subscribe to our newsletter:</label><br>
-    <input type="email" id="footerEmail" name="email"><br>
-    <input type="submit" value="Subscribe">
-  </form>
 </div>
 </body>
 </html>
